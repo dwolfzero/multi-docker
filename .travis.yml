@@ -19,5 +19,5 @@ after_success:
     # Take images and push to docker hub
     - docker push dwolfzero/multi-client
     - docker push dwolfzero/multi-nginx
-    - docker push dwolfzero/multi-servier
+    - docker push dwolfzero/multi-server
     - docker push dwolfzero/multi-worker
